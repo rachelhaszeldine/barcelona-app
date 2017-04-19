@@ -1,2 +1,4 @@
 # barcelona-app
-Practice app.
+Practice app 
+
+Tour guide
