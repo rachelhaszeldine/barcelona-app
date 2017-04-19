@@ -31,7 +31,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
     }
     
-    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
         let nextVC = storyboard.instantiateViewController(withIdentifier: ViewController2.storyBoardID) as! ViewController2
@@ -50,7 +49,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         registerTableViewCells()
     }
     
