@@ -45,8 +45,8 @@
                                                     <nil key="highlightedColor"/>
                                                     <size key="shadowOffset" width="50" height="50"/>
                                                 </label>
-                                                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="rCd-hp-ng4">
-                                                    <rect key="frame" x="177" y="64" width="20" height="20"/>
+                                                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="rCd-hp-ng4">
+                                                    <rect key="frame" x="177" y="63" width="20" height="20"/>
                                                 </activityIndicatorView>
                                             </subviews>
                                             <constraints>
@@ -56,8 +56,8 @@
                                                 <constraint firstItem="YpM-Fd-NNe" firstAttribute="leading" secondItem="wyr-Kj-TvY" secondAttribute="leading" id="cPG-bg-ZBX"/>
                                                 <constraint firstAttribute="bottom" secondItem="YpM-Fd-NNe" secondAttribute="bottom" id="fTf-RB-KfK"/>
                                                 <constraint firstItem="rCd-hp-ng4" firstAttribute="centerY" secondItem="wyr-Kj-TvY" secondAttribute="centerY" id="iP9-hf-5AU"/>
+                                                <constraint firstItem="rCd-hp-ng4" firstAttribute="centerX" secondItem="wyr-Kj-TvY" secondAttribute="centerX" id="oVZ-WD-N7b"/>
                                                 <constraint firstItem="00N-KM-nFa" firstAttribute="top" secondItem="wyr-Kj-TvY" secondAttribute="top" constant="8" id="r8d-gc-xyf"/>
-                                                <constraint firstItem="rCd-hp-ng4" firstAttribute="centerX" secondItem="wyr-Kj-TvY" secondAttribute="centerX" id="xFx-xl-67r"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -146,9 +146,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jf9-1i-ZCo">
-                                <rect key="frame" x="166" y="390" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jf9-1i-ZCo">
+                                <rect key="frame" x="137" y="387" width="102.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
