@@ -14,10 +14,18 @@ final class ViewController2: UIViewController {
     
     @IBOutlet weak var textLabel: UILabel!
     
-    var input: String?
+    @IBOutlet weak var placeImage: UIImageView!
     
+    @IBOutlet weak var descriptionText: UILabel!
+
+    var input: Place?
+    
+    func configure(withPlace place: Place) {
+        self.descriptionText.text = place.description
+
+    }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        textLabel.text = input
+        textLabel.text = input?.name
     }
 }
