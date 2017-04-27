@@ -1,4 +1,4 @@
-#Barcelona App
+## Barcelona App
 
 This is a practise app to develop my knowledge of table views and displaying images from URL.
 
