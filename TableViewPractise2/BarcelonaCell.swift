@@ -29,7 +29,7 @@ class BarcelonaCell: UITableViewCell {
             return
         }
         
-        downloadImage(atURL: url)
+        downloadImage(atURL: url)	
     }
     
     func downloadImage(atURL url: URL) {
