@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A3431F645C635C30D14D84E625A5F4AA0EC5F72E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A3431F645C635C30D14D84E625A5F4AA0EC5F72E" : 9223372036854775807,
+    "911B6CCE9CFEBA41992E39CB3D528E8FE3A55FAB" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D402D8EF-E0B8-48E1-AD2A-CFE7D30E1A6A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A3431F645C635C30D14D84E625A5F4AA0EC5F72E" : "barcelona-app\/",
+    "911B6CCE9CFEBA41992E39CB3D528E8FE3A55FAB" : "Tesco\/ios-titan\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TableViewPractise2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TableViewPractise2.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.dev.global.tesco.org:MobileApps\/ios-titan.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "911B6CCE9CFEBA41992E39CB3D528E8FE3A55FAB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rachelquartly\/barcelona-app",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A3431F645C635C30D14D84E625A5F4AA0EC5F72E"
+    }
+  ]
+}

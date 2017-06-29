@@ -1,0 +1,14 @@
+PODS:
+  - XCTest-Gherkin (0.10.2):
+    - XCTest-Gherkin/Core (= 0.10.2)
+  - XCTest-Gherkin/Core (0.10.2)
+
+DEPENDENCIES:
+  - XCTest-Gherkin
+
+SPEC CHECKSUMS:
+  XCTest-Gherkin: ea0a44ecdbe1c15f2312d42b1696cf14aa9db3ac
+
+PODFILE CHECKSUM: 151d54d35067f08f0e3b6c950e76f31d5b062fcd
+
+COCOAPODS: 1.2.1
