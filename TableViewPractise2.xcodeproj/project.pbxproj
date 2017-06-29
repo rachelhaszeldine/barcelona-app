@@ -13,7 +13,6 @@
 		02289BCD1E980A4E0010386B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02289BCC1E980A4E0010386B /* Assets.xcassets */; };
 		02289BD01E980A4E0010386B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02289BCE1E980A4E0010386B /* LaunchScreen.storyboard */; };
 		02289BDB1E980A4E0010386B /* TableViewPractise2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02289BDA1E980A4E0010386B /* TableViewPractise2Tests.swift */; };
-		02289BE61E980A4E0010386B /* TableViewPractise2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02289BE51E980A4E0010386B /* TableViewPractise2UITests.swift */; };
 		02289BF51E980AD90010386B /* BarcelonaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02289BF31E980AD90010386B /* BarcelonaCell.swift */; };
 		02289BF81E9D23A50010386B /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02289BF71E9D23A40010386B /* ViewController2.swift */; };
 		02289BFB1E9E6ABF0010386B /* BarcelonaBigCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02289BF91E9E6ABF0010386B /* BarcelonaBigCell.swift */; };
@@ -23,13 +22,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		02289BD71E980A4E0010386B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 02289BBA1E980A4E0010386B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 02289BC11E980A4E0010386B;
-			remoteInfo = TableViewPractise2;
-		};
-		02289BE21E980A4E0010386B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 02289BBA1E980A4E0010386B /* Project object */;
 			proxyType = 1;
@@ -49,9 +41,6 @@
 		02289BD61E980A4E0010386B /* TableViewPractise2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewPractise2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02289BDA1E980A4E0010386B /* TableViewPractise2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPractise2Tests.swift; sourceTree = "<group>"; };
 		02289BDC1E980A4E0010386B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02289BE11E980A4E0010386B /* TableViewPractise2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewPractise2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		02289BE51E980A4E0010386B /* TableViewPractise2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPractise2UITests.swift; sourceTree = "<group>"; };
-		02289BE71E980A4E0010386B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02289BF31E980AD90010386B /* BarcelonaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcelonaCell.swift; sourceTree = "<group>"; };
 		02289BF71E9D23A40010386B /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		02289BF91E9E6ABF0010386B /* BarcelonaBigCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcelonaBigCell.swift; sourceTree = "<group>"; };
@@ -74,13 +63,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		02289BDE1E980A4E0010386B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -89,7 +71,6 @@
 			children = (
 				02289BC41E980A4E0010386B /* TableViewPractise2 */,
 				02289BD91E980A4E0010386B /* TableViewPractise2Tests */,
-				02289BE41E980A4E0010386B /* TableViewPractise2UITests */,
 				02289BC31E980A4E0010386B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,7 +80,6 @@
 			children = (
 				02289BC21E980A4E0010386B /* TableViewPractise2.app */,
 				02289BD61E980A4E0010386B /* TableViewPractise2Tests.xctest */,
-				02289BE11E980A4E0010386B /* TableViewPractise2UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,15 +109,6 @@
 				02289BDC1E980A4E0010386B /* Info.plist */,
 			);
 			path = TableViewPractise2Tests;
-			sourceTree = "<group>";
-		};
-		02289BE41E980A4E0010386B /* TableViewPractise2UITests */ = {
-			isa = PBXGroup;
-			children = (
-				02289BE51E980A4E0010386B /* TableViewPractise2UITests.swift */,
-				02289BE71E980A4E0010386B /* Info.plist */,
-			);
-			path = TableViewPractise2UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,24 +149,6 @@
 			productReference = 02289BD61E980A4E0010386B /* TableViewPractise2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		02289BE01E980A4E0010386B /* TableViewPractise2UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 02289BF01E980A4E0010386B /* Build configuration list for PBXNativeTarget "TableViewPractise2UITests" */;
-			buildPhases = (
-				02289BDD1E980A4E0010386B /* Sources */,
-				02289BDE1E980A4E0010386B /* Frameworks */,
-				02289BDF1E980A4E0010386B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				02289BE31E980A4E0010386B /* PBXTargetDependency */,
-			);
-			name = TableViewPractise2UITests;
-			productName = TableViewPractise2UITests;
-			productReference = 02289BE11E980A4E0010386B /* TableViewPractise2UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -212,12 +165,6 @@
 						ProvisioningStyle = Automatic;
 					};
 					02289BD51E980A4E0010386B = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 6BLP57ZQQP;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 02289BC11E980A4E0010386B;
-					};
-					02289BE01E980A4E0010386B = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 6BLP57ZQQP;
 						ProvisioningStyle = Automatic;
@@ -240,7 +187,6 @@
 			targets = (
 				02289BC11E980A4E0010386B /* TableViewPractise2 */,
 				02289BD51E980A4E0010386B /* TableViewPractise2Tests */,
-				02289BE01E980A4E0010386B /* TableViewPractise2UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,13 +205,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		02289BD41E980A4E0010386B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		02289BDF1E980A4E0010386B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -295,14 +234,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		02289BDD1E980A4E0010386B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02289BE61E980A4E0010386B /* TableViewPractise2UITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -310,11 +241,6 @@
 			isa = PBXTargetDependency;
 			target = 02289BC11E980A4E0010386B /* TableViewPractise2 */;
 			targetProxy = 02289BD71E980A4E0010386B /* PBXContainerItemProxy */;
-		};
-		02289BE31E980A4E0010386B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 02289BC11E980A4E0010386B /* TableViewPractise2 */;
-			targetProxy = 02289BE21E980A4E0010386B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -494,34 +420,6 @@
 			};
 			name = Release;
 		};
-		02289BF11E980A4E0010386B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 6BLP57ZQQP;
-				INFOPLIST_FILE = TableViewPractise2UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = rachel.TableViewPractise2UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = TableViewPractise2;
-			};
-			name = Debug;
-		};
-		02289BF21E980A4E0010386B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 6BLP57ZQQP;
-				INFOPLIST_FILE = TableViewPractise2UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = rachel.TableViewPractise2UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = TableViewPractise2;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -548,15 +446,6 @@
 			buildConfigurations = (
 				02289BEE1E980A4E0010386B /* Debug */,
 				02289BEF1E980A4E0010386B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		02289BF01E980A4E0010386B /* Build configuration list for PBXNativeTarget "TableViewPractise2UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				02289BF11E980A4E0010386B /* Debug */,
-				02289BF21E980A4E0010386B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
