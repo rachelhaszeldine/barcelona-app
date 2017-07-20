@@ -1,0 +1,6 @@
+framework module Pods_TableViewPractise2_BarcelonaAppUITests {
+  umbrella header "Pods-TableViewPractise2-BarcelonaAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
