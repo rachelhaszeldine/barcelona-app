@@ -1,6 +1,6 @@
 //
 //  App.swift
-//  TescoTitan
+//  TableViewPractise2
 //
 //  Created by Zachary Borrelli on 24/05/2017.
 //  Copyright © 2017 Tesco. All rights reserved.
@@ -33,7 +33,6 @@ final class App {
 	
 	func launchWithOptions() {
 		currentApp = XCUIApplication()
-		currentApp?.launchArguments.append("SignOutOnLaunch")
 		currentApp?.launch()
 	}
 	
