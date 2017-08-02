@@ -1,9 +1,9 @@
 //
 //  XCUIElement+ScrollTo.swift
-//  TescoTitan
+//  TableViewPractise2
 //
 //  Created by Zachary Borrelli on 25/05/2017.
-//  Copyright © 2017 Tesco. All rights reserved.
+//  Copyright © 2017 Rachel Quartly. All rights reserved.
 //
 
 import XCTest
