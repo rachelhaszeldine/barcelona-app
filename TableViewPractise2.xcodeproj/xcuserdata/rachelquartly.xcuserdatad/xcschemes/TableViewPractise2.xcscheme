@@ -48,6 +48,16 @@
                ReferencedContainer = "container:TableViewPractise2.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0229AB211F0541D6000DF90E"
+               BuildableName = "BarcelonaAppUITests.xctest"
+               BlueprintName = "BarcelonaAppUITests"
+               ReferencedContainer = "container:TableViewPractise2.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

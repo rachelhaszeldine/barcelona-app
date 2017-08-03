@@ -10,7 +10,7 @@ import UIKit
 
 class BarcelonaBigCell: UITableViewCell, StringConfigurable {
     
-    @IBOutlet weak var insertImage: UIImageView!
+    @IBOutlet var pinkLabel: UILabel!
     
     func configure(withString string: String) {
         

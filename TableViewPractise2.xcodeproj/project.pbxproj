@@ -15,10 +15,10 @@
 		02289BDB1E980A4E0010386B /* TableViewPractise2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02289BDA1E980A4E0010386B /* TableViewPractise2Tests.swift */; };
 		02289BE61E980A4E0010386B /* TableViewPractise2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02289BE51E980A4E0010386B /* TableViewPractise2UITests.swift */; };
 		02289BF51E980AD90010386B /* BarcelonaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02289BF31E980AD90010386B /* BarcelonaCell.swift */; };
-		02289BF61E980AD90010386B /* BarcelonaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02289BF41E980AD90010386B /* BarcelonaCell.xib */; };
 		02289BF81E9D23A50010386B /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02289BF71E9D23A40010386B /* ViewController2.swift */; };
-		02289BFB1E9E6ABF0010386B /* BarcelonBigCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02289BF91E9E6ABF0010386B /* BarcelonBigCell.swift */; };
-		02289BFC1E9E6ABF0010386B /* BarcelonaBigCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02289BFA1E9E6ABF0010386B /* BarcelonaBigCell.xib */; };
+		02289BFB1E9E6ABF0010386B /* BarcelonaBigCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02289BF91E9E6ABF0010386B /* BarcelonaBigCell.swift */; };
+		023CC50E1EA7BDE700AEAD0E /* Barcelona-image-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 023CC50D1EA7BDE700AEAD0E /* Barcelona-image-1.jpg */; };
+		023CC5101EB244C600AEAD0E /* barcelona_app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 023CC50F1EB244C600AEAD0E /* barcelona_app_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		02289BE51E980A4E0010386B /* TableViewPractise2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPractise2UITests.swift; sourceTree = "<group>"; };
 		02289BE71E980A4E0010386B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02289BF31E980AD90010386B /* BarcelonaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcelonaCell.swift; sourceTree = "<group>"; };
-		02289BF41E980AD90010386B /* BarcelonaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BarcelonaCell.xib; sourceTree = "<group>"; };
 		02289BF71E9D23A40010386B /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
-		02289BF91E9E6ABF0010386B /* BarcelonBigCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcelonBigCell.swift; sourceTree = "<group>"; };
-		02289BFA1E9E6ABF0010386B /* BarcelonaBigCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BarcelonaBigCell.xib; sourceTree = "<group>"; };
+		02289BF91E9E6ABF0010386B /* BarcelonaBigCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcelonaBigCell.swift; sourceTree = "<group>"; };
+		023CC50D1EA7BDE700AEAD0E /* Barcelona-image-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Barcelona-image-1.jpg"; sourceTree = "<group>"; };
+		023CC50F1EB244C600AEAD0E /* barcelona_app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcelona_app_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,15 +109,15 @@
 			children = (
 				02289BC51E980A4E0010386B /* AppDelegate.swift */,
 				02289BC71E980A4E0010386B /* ViewController.swift */,
+				02289BF71E9D23A40010386B /* ViewController2.swift */,
 				02289BF31E980AD90010386B /* BarcelonaCell.swift */,
-				02289BF41E980AD90010386B /* BarcelonaCell.xib */,
-				02289BF91E9E6ABF0010386B /* BarcelonBigCell.swift */,
-				02289BFA1E9E6ABF0010386B /* BarcelonaBigCell.xib */,
 				02289BC91E980A4E0010386B /* Main.storyboard */,
+				023CC50D1EA7BDE700AEAD0E /* Barcelona-image-1.jpg */,
 				02289BCC1E980A4E0010386B /* Assets.xcassets */,
+				023CC50F1EB244C600AEAD0E /* barcelona_app_icon.png */,
 				02289BCE1E980A4E0010386B /* LaunchScreen.storyboard */,
 				02289BD11E980A4E0010386B /* Info.plist */,
-				02289BF71E9D23A40010386B /* ViewController2.swift */,
+				02289BF91E9E6ABF0010386B /* BarcelonaBigCell.swift */,
 			);
 			path = TableViewPractise2;
 			sourceTree = "<group>";
@@ -208,7 +208,8 @@
 				TargetAttributes = {
 					02289BC11E980A4E0010386B = {
 						CreatedOnToolsVersion = 8.3;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 6BLP57ZQQP;
+						ProvisioningStyle = Automatic;
 					};
 					02289BD51E980A4E0010386B = {
 						CreatedOnToolsVersion = 8.3;
@@ -250,9 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				02289BD01E980A4E0010386B /* LaunchScreen.storyboard in Resources */,
-				02289BFC1E9E6ABF0010386B /* BarcelonaBigCell.xib in Resources */,
-				02289BF61E980AD90010386B /* BarcelonaCell.xib in Resources */,
+				023CC50E1EA7BDE700AEAD0E /* Barcelona-image-1.jpg in Resources */,
 				02289BCD1E980A4E0010386B /* Assets.xcassets in Resources */,
+				023CC5101EB244C600AEAD0E /* barcelona_app_icon.png in Resources */,
 				02289BCB1E980A4E0010386B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02289BFB1E9E6ABF0010386B /* BarcelonBigCell.swift in Sources */,
+				02289BFB1E9E6ABF0010386B /* BarcelonaBigCell.swift in Sources */,
 				02289BF51E980AD90010386B /* BarcelonaCell.swift in Sources */,
 				02289BF81E9D23A50010386B /* ViewController2.swift in Sources */,
 				02289BC81E980A4E0010386B /* ViewController.swift in Sources */,
@@ -436,11 +437,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6BLP57ZQQP;
 				INFOPLIST_FILE = TableViewPractise2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rachel.TableViewPractise2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
@@ -450,7 +453,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6BLP57ZQQP;
 				INFOPLIST_FILE = TableViewPractise2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rachel.TableViewPractise2;
