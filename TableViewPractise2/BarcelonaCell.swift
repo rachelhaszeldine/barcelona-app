@@ -8,12 +8,20 @@
 
 import UIKit
 
+var images = [String: UIImage]()
+
 class BarcelonaCell: UITableViewCell {
     
     @IBOutlet var placeName: UILabel!
-    
+    @IBOutlet var spinner: UIActivityIndicatorView!
     @IBOutlet var placeImage: UIImageView!
+    private var currentlyFetchingUrlString = ""
 
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        placeImage.image = nil
+    }
+    
     func configure(withPlaceName placeName: String, andURLString urlString: String) {
         self.placeName.text = placeName
         guard let url = URL(string: urlString) else {
@@ -25,11 +33,19 @@ class BarcelonaCell: UITableViewCell {
     
     func configure(withPlace place: Place) {
         self.placeName.text = place.name
-        guard let url = URL(string: place.imageURLString) else {
+    
+        guard let urlString = place.imageURLString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed), let url = URL(string: urlString) else {
             return
         }
         
-        downloadImage(atURL: url)	
+        currentlyFetchingUrlString = url.absoluteString
+        if let image = images[url.absoluteString] {
+            placeImage.image = image
+            spinner.stopAnimating()
+        } else {
+            spinner.startAnimating()
+            downloadImage(atURL: url)
+        }
     }
     
     func downloadImage(atURL url: URL) {
@@ -47,7 +63,12 @@ class BarcelonaCell: UITableViewCell {
                     //Jump back to main thread
                     DispatchQueue.main.async {
                         // Upade image in our cell
+                        images[url.absoluteString] = image
+                        if self?.currentlyFetchingUrlString != url.absoluteString {
+                            return
+                        }
                         self?.placeImage.image = image
+                        self?.spinner.stopAnimating()
                     }
                     
                 }

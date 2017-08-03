@@ -53,10 +53,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        guard let storyboard = self.storyboard else { return }
         let nextVC = storyboard.instantiateViewController(withIdentifier: ViewController2.storyBoardID) as! ViewController2
-        nextVC.input = places[indexPath.row]
+        
+        let indexOfThePlaceInList = indexPath.row
+        
+        let chosenPlace = places[indexOfThePlaceInList]
+        
+        nextVC.displayProperties(place: chosenPlace)
+        
         navigationController?.pushViewController(nextVC, animated: true)
+        
     }
     
     func registerTableViewCells() {

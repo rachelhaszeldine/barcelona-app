@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BarcelonaAppUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>TableViewPractise2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>02289BE01E980A4E0010386B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0229AB211F0541D6000DF90E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
