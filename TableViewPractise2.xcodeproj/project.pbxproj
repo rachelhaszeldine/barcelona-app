@@ -19,13 +19,15 @@
 		023CC50E1EA7BDE700AEAD0E /* Barcelona-image-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 023CC50D1EA7BDE700AEAD0E /* Barcelona-image-1.jpg */; };
 		023CC5101EB244C600AEAD0E /* barcelona_app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 023CC50F1EB244C600AEAD0E /* barcelona_app_icon.png */; };
 		0D5F3A7118B67C13EA83CA4C /* Pods_TableViewPractise2_TableViewPractise2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80DAEA82E5AC0144475B324 /* Pods_TableViewPractise2_TableViewPractise2UITests.framework */; };
-		704E35091F054523003A9530 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E35071F054523003A9530 /* App.swift */; };
-		704E350A1F054523003A9530 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E35081F054523003A9530 /* Feature.swift */; };
+		7027F0401F332A970075D8FE /* UITestingGlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7027F03F1F332A970075D8FE /* UITestingGlobalFunctions.swift */; };
 		704E350C1F054613003A9530 /* TestFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E350B1F054613003A9530 /* TestFeature.swift */; };
 		704E350E1F054747003A9530 /* TestSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E350D1F054747003A9530 /* TestSteps.swift */; };
 		704E35101F054875003A9530 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E350F1F054875003A9530 /* FirstScreen.swift */; };
 		704E35121F05B640003A9530 /* BaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E35111F05B640003A9530 /* BaseScreen.swift */; };
 		704E35141F05B795003A9530 /* LocationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E35131F05B795003A9530 /* LocationScreen.swift */; };
+		70C120761F1FBEBC00D6656B /* XCUIElement+ScrollTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C120751F1FBEBC00D6656B /* XCUIElement+ScrollTo.swift */; };
+		70C120781F20E2EA00D6656B /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C120771F20E2EA00D6656B /* App.swift */; };
+		70C1207A1F20E4CA00D6656B /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C120791F20E4CA00D6656B /* Feature.swift */; };
 		BBC37FCF57021856D24FDC47 /* Pods_TableViewPractise2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8574C048574EF566DA1BCB11 /* Pods_TableViewPractise2.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,13 +64,15 @@
 		02289BF91E9E6ABF0010386B /* BarcelonaBigCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcelonaBigCell.swift; sourceTree = "<group>"; };
 		023CC50D1EA7BDE700AEAD0E /* Barcelona-image-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Barcelona-image-1.jpg"; sourceTree = "<group>"; };
 		023CC50F1EB244C600AEAD0E /* barcelona_app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcelona_app_icon.png; sourceTree = "<group>"; };
-		704E35071F054523003A9530 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = App.swift; path = "../../Tesco/ios-titan/TescoTitan/TescoTitanUITests/App.swift"; sourceTree = "<group>"; };
-		704E35081F054523003A9530 /* Feature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Feature.swift; path = "../../Tesco/ios-titan/TescoTitan/TescoTitanUITests/Feature.swift"; sourceTree = "<group>"; };
+		7027F03F1F332A970075D8FE /* UITestingGlobalFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITestingGlobalFunctions.swift; sourceTree = "<group>"; };
 		704E350B1F054613003A9530 /* TestFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFeature.swift; sourceTree = "<group>"; };
 		704E350D1F054747003A9530 /* TestSteps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSteps.swift; sourceTree = "<group>"; };
 		704E350F1F054875003A9530 /* FirstScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
 		704E35111F05B640003A9530 /* BaseScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseScreen.swift; sourceTree = "<group>"; };
 		704E35131F05B795003A9530 /* LocationScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationScreen.swift; sourceTree = "<group>"; };
+		70C120751F1FBEBC00D6656B /* XCUIElement+ScrollTo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCUIElement+ScrollTo.swift"; sourceTree = "<group>"; };
+		70C120771F20E2EA00D6656B /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		70C120791F20E4CA00D6656B /* Feature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 		70DF5B881F0541D20096581C /* TableViewPractise2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewPractise2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70DF5B8C1F0541D20096581C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8574C048574EF566DA1BCB11 /* Pods_TableViewPractise2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewPractise2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,10 +168,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7027F03E1F332A820075D8FE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				70C120751F1FBEBC00D6656B /* XCUIElement+ScrollTo.swift */,
+				7027F03F1F332A970075D8FE /* UITestingGlobalFunctions.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		704E35041F0544AF003A9530 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				704E35081F054523003A9530 /* Feature.swift */,
+				70C120791F20E4CA00D6656B /* Feature.swift */,
 				704E350B1F054613003A9530 /* TestFeature.swift */,
 			);
 			name = Features;
@@ -194,7 +207,8 @@
 		70DF5B891F0541D20096581C /* TableViewPractise2UITests */ = {
 			isa = PBXGroup;
 			children = (
-				704E35071F054523003A9530 /* App.swift */,
+				70C120771F20E2EA00D6656B /* App.swift */,
+				7027F03E1F332A820075D8FE /* Utilities */,
 				704E35061F0544BE003A9530 /* Steps */,
 				704E35051F0544B6003A9530 /* Screens */,
 				704E35041F0544AF003A9530 /* Features */,
@@ -472,12 +486,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7027F0401F332A970075D8FE /* UITestingGlobalFunctions.swift in Sources */,
 				704E350C1F054613003A9530 /* TestFeature.swift in Sources */,
 				704E350E1F054747003A9530 /* TestSteps.swift in Sources */,
 				704E35121F05B640003A9530 /* BaseScreen.swift in Sources */,
-				704E350A1F054523003A9530 /* Feature.swift in Sources */,
 				704E35141F05B795003A9530 /* LocationScreen.swift in Sources */,
-				704E35091F054523003A9530 /* App.swift in Sources */,
+				70C1207A1F20E4CA00D6656B /* Feature.swift in Sources */,
+				70C120781F20E2EA00D6656B /* App.swift in Sources */,
+				70C120761F1FBEBC00D6656B /* XCUIElement+ScrollTo.swift in Sources */,
 				704E35101F054875003A9530 /* FirstScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
